@@ -1,0 +1,89 @@
+
+############################################################
+# optional things
+
+lib/ext/*
+bin/rmid.exe
+bin/rmiregistry.exe
+bin/tnameserv.exe
+bin/keytool.exe
+bin/kinit.exe
+bin/klist.exe
+bin/ktab.exe
+bin/policytool.exe
+bin/orbd.exe
+bin/servertool.exe
+bin/javaws.exe
+lib/javaws.jar
+lib/jfr
+lib/jfr.jar
+#?lib/oblique-fonts/*
+#?lib/desktop/*
+#?plugin/*
+
+############################################################
+# JavaFX
+
+THIRDPARTYLICENSEREADME-JAVAFX.txt
+
+#?lib/ant-javafx.jar
+lib/javafx.properties
+lib/jfxswt.jar
+
+#?bin/decora-sse.dll
+bin/fxplugins.dll
+bin/glass.dll
+bin/glib-lite.dll
+bin/gstreamer-lite.dll
+#?bin/javafx-font.dll
+bin/javafx_font_t2k.dll
+#?bin/javafx-iio.dll
+bin/jfxmedia.dll
+bin/jfxwebkit.dll
+bin/prism_common.dll
+#?bin/prism-d3d.dll
+#?bin/prism_es2.dll
+bin/prism_sw.dll
+
+############################################################
+# For distributing as a runtime 
+
+# we keep those for people who do not use a launcher
+# bin/java.exe
+# bin/javaw.exe
+
+bin/javacpl.exe
+#?bin/jucheck.exe
+bin/dtplugin
+bin/jabswitch.exe
+bin/java_crw_demo.dll
+#?bin/JavaAccessBridge-32.dll
+#?bin/JavaAccessBridge.dll
+#?bin/JAWTAccessBridge-32.dll
+#?bin/JAWTAccessBridge.dll
+#?bin/WindowsAccessBridge-32.dll
+#?bin/WindowsAccessBridge.dll
+bin/wsdetect.dll
+#?bin/dtplugin/*
+bin/plugin2/*
+bin/deploy.dll
+bin/jfr.dll
+bin/javacpl.cpl
+lib/deploy.jar
+lib/plugin.jar
+lib/deploy/*
+
+############################################################
+# TTF fonts
+
+lib/fonts/*.ttf
+
+############################################################
+# color profile
+
+lib/cmm/PYCC.pf
+
+############################################################
+# certificates
+
+lib/security/cacerts
