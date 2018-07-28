@@ -6,7 +6,7 @@ Extract the *tar.gz* JRE archive to a directory, then e.g. for MacOS run
 $ ./jre-reduce.sh macosx-x64 [directory]
 ```
 
-Current version is [Java 8 Update 172](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). It might also work with newer updates.
+Current version is [Java 8 Update 181](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). It might also work with newer updates.
 
 This version information is also recorded in the file `version.inc`, which can be sourced from other scripts.
 
